@@ -20,3 +20,7 @@ npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffl
 
 ## Installing openzeppelin
 npm install @openzeppelin/contracts
+
+## Deploy HardHat basic Hello World contract
+npx hardhat run scripts/sample-script.js
+
