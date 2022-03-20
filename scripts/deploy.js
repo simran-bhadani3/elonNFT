@@ -5,6 +5,9 @@ async function main() {
   const elon = await ElonNFT.deploy();
   await elon.deployed(); 
   console.log("ElonNFT deployed to:", elon.address);
+
+  let txn = await elon.mintNFT();
+  await txn.wait();
 }
  
 main()
